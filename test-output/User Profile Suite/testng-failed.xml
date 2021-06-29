@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [User Profile Suite]">
+  <test name="User Profile Test(failed)">
+    <groups>
+      <run>
+        <include name="userprofile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="homePageTest1"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.ProfileCreationPageTest">
+        <methods>
+          <include name="profileCreationPageTest"/>
+        </methods>
+      </class> <!-- Tests.ProfileCreationPageTest -->
+      <class name="Tests.LoginPageTest">
+        <methods>
+          <include name="loginPageTest"/>
+        </methods>
+      </class> <!-- Tests.LoginPageTest -->
+      <class name="Tests.UserDetailsPageTest">
+        <methods>
+          <include name="userDetailsPageTest"/>
+        </methods>
+      </class> <!-- Tests.UserDetailsPageTest -->
+    </classes>
+  </test> <!-- User Profile Test(failed) -->
+</suite> <!-- Failed suite [User Profile Suite] -->

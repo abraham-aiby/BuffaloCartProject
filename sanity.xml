@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.4.dtd">
+<suite name="Sanity Suite">
+  <test name="Sanity Test">
+  
+ 
+  <groups>
+  
+   <run>
+      <include name="loginscenario"/>
+    </run>
+
+   <run>
+      <include name="landonhomepage"/>
+    </run>
+    
+      <run>
+      <include name="createfilenfolder"/>
+    </run>
+    
+     <run>
+      <include name="searchfilenfolder"/>
+    </run>
+    
+      <run>
+      <include name="getclientlist"/>
+    </run>
+    
+     <run>
+      <include name="deleteclientfromexcel"/>
+    </run>
+    
+    <run>
+      <include name="calendareventsdisplay"/>
+    </run>
+    
+     <run>
+      <include name="bugprofilecreation"/> 
+    </run>
+    
+     <run>
+      <include name="bugprofileview"/> 
+    </run>
+    
+     <run>
+      <include name="createknowledgebase"/>
+    </run>
+    
+     <run>
+      <include name="viewarticle"/>
+    </run>
+    
+     <run>
+      <include name="mailconversation"/>
+    </run>
+    
+      <run>
+      <include name="userprofilecreation"/>
+    </run>
+    
+     <run>
+      <include name="viewuserprofile"/>
+    </run>
+    
+     <run>
+      <include name="signinasnewuser"/>
+    </run>
+    
+     <run>
+      <include name="updateuserdetails"/>
+    </run>
+    
+    
+   
+   </groups>
+    <classes>
+      <class name="Tests.BugDetailsPageTest"/>
+      <class name="Tests.DeleteClientListPageTest"/>
+      <class name="Tests.FileManagerViewPageTest"/>
+      <class name="Tests.ArticleValidationPageTest"/>
+      <class name="Tests.CalendarDisplayPageTest"/>
+      <class name="Tests.ProfileCreationPageTest"/>
+      <class name="Tests.KnowledgeBasePageTest"/>
+      <class name="Tests.NewUserPageTest"/>
+      <class name="Tests.FileManagerPageTest"/>
+      <class name="Tests.UserDetailsPageTest"/>
+      <class name="Tests.LoginPageTest"/>
+      <class name="Tests.UpdateUserDetailsPageTest"/>
+      <class name="Tests.ClientListPageTest"/>
+      <class name="Tests.BugDetailsViewPageTest"/>
+      <class name="Tests.MailConvoPageTest"/>
+      <class name="Tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleBrowser" parallel="none">
+  <test name="ChromeBrowser" >
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://buffalocart.com/demo/erp/admin/dashboard"/>
+  <classes>
+      <class name="Tests.BugDetailsPageTest"/>
+      <class name="Tests.DeleteClientListPageTest"/>
+      <class name="Tests.FileManagerViewPageTest"/>
+      <class name="Tests.ArticleValidationPageTest"/>
+      <class name="Tests.CalendarDisplayPageTest"/>
+      <class name="Tests.ProfileCreationPageTest"/>
+      <class name="Tests.KnowledgeBasePageTest"/>
+      <class name="Tests.NewUserPageTest"/>
+      <class name="Tests.FileManagerPageTest"/>
+      <class name="Tests.UserDetailsPageTest"/>
+      <class name="Tests.LoginPageTest"/>
+      <class name="Tests.UpdateUserDetailsPageTest"/>
+      <class name="Tests.ClientListPageTest"/>
+      <class name="Tests.BugDetailsViewPageTest"/>
+      <class name="Tests.MailConvoPageTest"/>
+      <class name="Tests.HomePageTest"/>
+    </classes>
+   </test>
+  
+   <test name="FirefoxBrowser" >
+  <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://buffalocart.com/demo/erp/admin/dashboard"/>
+  <classes>
+      <class name="Tests.BugDetailsPageTest"/>
+      <class name="Tests.DeleteClientListPageTest"/>
+      <class name="Tests.FileManagerViewPageTest"/>
+      <class name="Tests.ArticleValidationPageTest"/>
+      <class name="Tests.CalendarDisplayPageTest"/>
+      <class name="Tests.ProfileCreationPageTest"/>
+      <class name="Tests.KnowledgeBasePageTest"/>
+      <class name="Tests.NewUserPageTest"/>
+      <class name="Tests.FileManagerPageTest"/>
+      <class name="Tests.UserDetailsPageTest"/>
+      <class name="Tests.LoginPageTest"/>
+      <class name="Tests.UpdateUserDetailsPageTest"/>
+      <class name="Tests.ClientListPageTest"/>
+      <class name="Tests.BugDetailsViewPageTest"/>
+      <class name="Tests.MailConvoPageTest"/>
+      <class name="Tests.HomePageTest"/>
+    </classes>
+   </test>
+  
+  <test name="EdgeBrowser" >
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="http://buffalocart.com/demo/erp/admin/dashboard"/>
+    <classes>
+      <class name="Tests.BugDetailsPageTest"/>
+      <class name="Tests.DeleteClientListPageTest"/>
+      <class name="Tests.FileManagerViewPageTest"/>
+      <class name="Tests.ArticleValidationPageTest"/>
+      <class name="Tests.CalendarDisplayPageTest"/>
+      <class name="Tests.ProfileCreationPageTest"/>
+      <class name="Tests.KnowledgeBasePageTest"/>
+      <class name="Tests.NewUserPageTest"/>
+      <class name="Tests.FileManagerPageTest"/>
+      <class name="Tests.UserDetailsPageTest"/>
+      <class name="Tests.LoginPageTest"/>
+      <class name="Tests.UpdateUserDetailsPageTest"/>
+      <class name="Tests.ClientListPageTest"/>
+      <class name="Tests.BugDetailsViewPageTest"/>
+      <class name="Tests.MailConvoPageTest"/>
+      <class name="Tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
